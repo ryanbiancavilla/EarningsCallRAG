@@ -1,0 +1,515 @@
+NVIDIA Corporation (NVDA) Second Annual AI Summit February 3, 2026 10:30 PM EST
+
+Company Participants
+
+Jen-Hsun Huang - Co-Founder, CEO, President & Director
+
+Conference Call Participants
+
+Charles Robbins - Cisco Systems, Inc.
+
+Presentation
+
+Charles Robbins
+Cisco Systems, Inc.
+
+So first of all, thanks, everybody, for being here for an incredibly long day. We started this thing early this morning, and we had speaker after speaker, after speaker after speaker. And then we had about a 2.5-hour break, and they came back to see you. So...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+I've been up since 1:00.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+So this guy -- this guy is on the tail end of a 2-week trip in 4 or 5 different cities in Asia.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+One day ago, I was in Taiwan. Last night, I was in Houston. Here I am.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+But he's been going 2 weeks, and we're standing between him and his personal bed versus a hotel. So we're going to have fun, and then we're going to get them out here. So -- but you don't need much of an introduction, but thank you for being here, man.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Yes. Thank you.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+We really appreciate it. And...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Thanks for partnership, and really proud of you guys.
+
+Question-and-Answer Session
+
+Charles Robbins
+Cisco Systems, Inc.
+
+So let's start with that. We have had a partnership and you introduced this whole concept of AI factories, and we're working on this together. It's probably not going as fast as either 1 of us would like in the enterprise space. But can we start by talking about what do you -- what is an AI factory to you?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+So first of all, remember, we're reinventing computing for the first time in 60 years. What used to be explicit programming, right, we wrote the programs. And the variables that's passed through APIs are very explicit to implicit programming. You now tell the computer what your intent is and it goes off and it figures out how to solve your problem. So from explicit to implicit, from general-purpose computing, basically calculation to artificial intelligence. The entire computing stack has been reinvented.
+
+Now people talk about computing where the processing layer is, which is where we are. But remember what computing is. There's computing, there's the processing, but there's storage, networking and security. All that is being reinvented as we speak. And so the first part is we need to develop AI to a level, and we'll talk about that. We need to develop AI to a level that is useful to people. And until now, chatbots, where you give it a prompt and it figures out what to tell you, is interesting and curious but not useful.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Helps me finish crossword puzzle sometimes.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Yes. And -- but only on things that it had memorized and generalized. So if you look -- go back in the beginning of -- I mean, it's literally only 3 years ago, when ChatGPT emerged that we thought, "Oh my gosh, it's able to generate all these words. It's able to create Shakespeare." But it's all based on things that it memorized and generalized. And -- but we know that intelligence is about solving problems. And solving problems is partly about knowing what you don't know. Partly about reasoning how to solve a problem you've never seen before, breaking it down into elements that you know how to solve very easily so that in its composition that you're able to solve problems that you've never seen before. .
+
+And to come up with a strategy, what we call plan to performing a task, ask for help, use tools, do research, so on and so forth. These are all fundamental things that now in the phraseology of agentic AI, you've heard, Isn't that right? Tool use, research, retrievable augmented generation, which is grounded on facts, memory. These are all things that all of you in the context of talking about agentic AI, you're starting to hear. But the important thing is in order to evolve from general purpose computing, which is explicit programming, we wrote it in Fortran, we wrote in C, we wrote in C++ to...
+
+Charles Robbins
+Cisco Systems, Inc.
+
+COBOL.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+That's right. That's good stuff. That's good stuff. Chuck? That's good stuff.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+It's my fallback job.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+That's good stuff. That's good stuff. Yes. That's 1 of those skills that remains valuable.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+I know.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+It remains valuable.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+I've got a lot of offers.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Dinosaurs are valuable forever.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+We just established that you're older than me.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+I know. And I'm the prehistoric. It doesn't appear so, but it's true.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+All right. Pretty good.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+I'm probably the old person in this room.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+So how do you -- so Jensen, let's talk a little bit about like as you think about the AI...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+So here we are. I went to Chuck and I said, "Hey, listen, we need to reinvent computing and Cisco has got to be a big part of it." And so we've got -- we have a new whole computing stack coming out, Vera Rubin, and Cisco is going to be time to market with us on that. And so that's the computing layer, but there's also the networking layer. And Cisco is going to integrate AI networking technology from us, but put it into the Cisco Nexus plane, control plane so that from your perspective, you're going to get all the performance of AI, but in the controllability and security and the manageability of Cisco.
+
+We're going to do the same thing with security. And so each 1 of these pillars has to be reinvented so that enterprise computing could take advantage of it. But ultimately, and we'll come back to this, hopefully, that why is it that enterprise AI wasn't ready 3 years ago and why it is that you have no choice but to get engaged as quickly as you can, okay? Don't fall behind. I think there's -- you don't have to be the first company to take advantage of AI, but don't be the last. Yes.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+So if you're an enterprise today, what's your recommendation on the first, second, third step they should take to begin to get ready?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Well, I get questions like things like ROI. And I wouldn't go there. And the reason for that is because with all technology deployments in the beginning, it's hard to put into a spreadsheet, the ROI of a new tool, a new technology. But what I would do is I would go find out what is the single most -- what is the essence of my company? What's the most impactful work that we do in our company? Don't mess around. Don't mess around with peripheral stuff. I mean, in our company, we have -- we just let 1,000 flowers bloom. The number of different AI projects in our company, it's out of control, and it's great. Notice, I just said something. It's out of control and it's great.
+
+Innovation is not always in control. If you want to be in control, first of all, you ought to seek therapy. But second, it's an illusion. You're not in control. If you want your company to succeed, you can't control it. You want to influence it, you can't control it. And so I think, number one, Too many people want it -- too many companies I hear. They want us explicit, they want it specific. They want demonstrable ROI. And showing the value of something worth doing in the beginning is hard. But what I would do -- what I would say is that let 1,000 flowers bloom, let people experiment, let the people experiment safely. And we're experimenting with all kinds of stuff in the company. We use Anthropic. We use Codex. We use Gemini. We use everything. And when 1 of our groups says, "I'm interested in using this AI, my first answer is yes, and I'll ask why." Instead of why then yes. I say yes, then why.
+
+And the reason for that is because I want the same thing for my company that I want for my kids, go explore life. They say they want to try something. The answer is yes. And then I say, how come? You don't go, prove it to me. Prove to me that doing this very thing is going to lead to financial success or some happiness someday. Prove to me. And until you prove it to me, I'm not going to let you do it. We never do that at home, but we do it at work. Do you know what I'm saying?
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Yes.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+It makes no sense to me. And so the way that we treat AI and whether it's AI or the Internet before or cloud before, just let 1,000 flowers bloom. And then at some point, you have to use your own judgment to figure out when to start curating the garden because 1,000 flowers bloom makes for a messy garden. But at some point, you have to start curating to find what's the best approach or what's the best platform so that you could put all your wood behind 1 arrow. But you don't want to put all your work behind 1 arrow too soon. You pick the wrong arrow. So let 1,000 flowers bloom. At some point, you curate.
+
+And so I haven't started curating yet, just to put it in perspective. I've got 1,000 flowers bloom everywhere, but I encourage everybody to try. However, I know exactly what is most important to our company. Of course, I do. What is the essence of our company, what are the most important work of our company? And I make sure that I've got a lot of expertise and a lot of capability focused on using AI to revolutionize that work.
+
+In our case, chip design, software engineering, system engineering, notice -- you might have noticed that we partnered with Synopsys and Cadence and Siemens and today Dassault so that we could insert our technology and infuse as much technology as they want, whatever they want, whatever they need, I will provide so that I could revolutionize the tools by which we use to design what we do. We use Synopsys everywhere. We use Cadence everywhere. We use Siemens everywhere. We use Dassault everywhere. I will make sure that they have 1,000% of whatever they want so that I have the tools necessary so I could create the next generation. And so that tells you something about how I -- my attitude about what's most important to me and what I will do to revolutionize my own work.
+
+Think about what AI does. AI reduces the cost of intelligence or create the abundance of intelligence by orders of magnitude. That's another way of saying what we used to do that takes 1 unit a time, what we used to take a year could take a day now. What we used to take a year, it could take an hour. It could be done in real time. And the reason for that is because we are in the world of abundance, Moore's Law, goodness, gracious, that was slow. That's like snails. Remember, Moore's Law was 2 times every 18 months, 10 times every 5 years, 100 times every 10, okay? But where are we now? 1 million times every 10 years.
+
+In the last 10 years, we advanced AI so far that engineers said, "Hey, guess what, why don't we just train an AI model on all of the world's data." They didn't mean let's just collect all the data from my disk drive. Let's just -- let's pull down all of the world's data, and let's train an AI model. That's the definition of abundance. The definition of abundance is you look at a problem so big, and you say, you know what, I'll do it all. I'm going to cure every field of disease. I'm not going to just do cancer. Are you kidding me? That's insane. We'll just do all of human suffering. That's abundance.
+
+When I think about engineering, when I think about the problem these days, I just assume my technology, my tool, my instrument, my spaceship is infinitely fast. How long is it going to take for me to go to New York? I'll be there in a second. So what would I do different if I can get to New York in a second? What would I do different if something used to take a year and then now takes real time. What would I do different if something used to weigh a lot. And now it's just antigravity. And so you approach everything with that attitude. When you approach everything with that attitude, you are applying AI sensibility.
+
+Does that make sense? For example, there are many companies that we're working with, where the graph analytics, the dependency, the relationships and dependencies that these graphs, they have so many edges, so many nodes and edges, trillions of them. Back in the old days, you would process a graph, small pieces of it. These days, just give me the whole graph. How big is it? I don't care. That sensibility is being applied everywhere. If you're not applying that sensibility, you're doing it wrong. If speed matters? Not at all. You're at the speed of light. If mass is, you're at 0 weight, 0 gravity. If you're not applying that logic, if this something is not -- it's insanely hard to you in the past, and you go, yes, it doesn't matter. If you're not applying that logic, you're not doing it right.
+
+Now imagine you apply that logic, that sensibility to the hardest problems in your company. That's how you're going to move the needle. And that's how they all think now. The people who are -- if you're not thinking that way, all you had to is just imagine your competitor is thinking that way. If you're not thinking that way, just imagine a company who is about to get founded is thinking that way. It changes everything. And so I would go find where are the most impactful work in your company, apply infinity to it, apply 0 to it, apply the speed of light to it. And then ask, Chuck, how to make that happen?
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Now let's talk about how to make that happen. So you have this analogy of...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Just call me.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+I'll call you.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+We'll do it together.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+You have this analogy, this 5-layer cake because everybody is talking about like infrastructure models, apps...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Yes. What is AI? Yes.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+I mean how do I go about it? Talk about that a little bit.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Well, the first -- 1 of the things that successful people do is they reason about what is something. What's happening here? So almost 15 years ago, an algorithm was able to -- with 2 engineers, solve a computer vision problem. Computer vision is basically the first part of intelligence, perception. Intelligence is perception, reasoning, planning. Perception. What am I -- what's going on? What's my context? Reasoning? How do I reason about? How do I compare this to my goals?
+
+And then three, come up with a plan to solve that, to achieve that, okay? And so that's -- so for example, the jet fighter problem, perception, localization and then action. And so intelligence is about those 3 things. You can't have the second and third part without perception. You can't understand -- you can't figure out what to do without understanding context. And context is highly multimodal. Sometimes it's a PDF, sometimes it's a spreadsheet, sometimes it's information, sometimes it's just senses and smells. Where are we? What are we doing here? Who's the audience? So on and so -- reading the room, so on and so forth, right? And so that's about perception.
+
+And so about 13, 14 years ago, we made a huge, gigantic leap in computer vision, which is the first layer of the perception problem. And it was super hard. How do you solve computer vision? And AlexNet and the first breakthrough that we saw, it was kind of like the First Contact. I love that movie, the First Contact. It was like our first contact to AI. And the thing that we did was we said, okay, what does that mean? How is it possible that 2 engineers was able to overcome the algorithms that were -- that we worked -- all of us worked on for some 30 years. And Ilya Sutskever, I talked to him yesterday and Alex Krizhevsky -- and how is it possible? Two kids with a couple of GPUs, solved this problem. What does it mean? And so we broke it all down, and I reasoned about it a decade ago.
+
+And I came to the conclusion that, in fact, most of the hard problems in the world that can be solved, can be solved, can be solved this way. And the reason for that is most of the hard problems in the world, most of the valuable problems have no principled algorithms. There's no F equals MA. There's no Maxwell's equation. There's no Schrodinger's equation. There's no Ohm's law. There's no -- it just doesn't exist. There's no law of thermodynamics. It's not that specific. Most of the valuable things that we call intuition and wisdom, and it's all the problems that -- Chuck, the type of problems that you and I get, the answer is it depends. Do you know what I'm talking about? If it was 3, it would be great, it was 3.14, it would be fantastic, okay? Those are the great ones. But most of the hard problems in life, most of the valuable problems in life are -- it depends because it depends on the context. It depends on the circumstance, context.
+
+And so 12 years ago, 13 years ago, something like that, yes, computer vision was solved. And so we reason that, in fact, this could be scalable because of deep learning, and you can make that models larger and larger, and there was only 1 problem we had to solve, which is how do we train that model. And the big breakthrough was self-supervised learning or unsupervised learning. So AIs that goes and learns by itself. And notice, today, we're not limited by labeling anymore. We're not even close. And so that breakthrough opened up the floodgates for us to scale these models from a few hundred parameters -- a few hundred million parameters to billions to trillions. And the amount of knowledge we can codify, the number of skills we can learn algorithmically, really largely exploded. But the basic approach was the same.
+
+And we reason that, in fact, we're going to reinvent and which is the beginning of our conversation, we're going to reinvent computing altogether from explicit programming to a new way of doing computing where the models, the software will be learned. Now what happens -- what does that mean? If you take another step back and you go, okay, what does that mean to the computing stack? What does it mean to -- what does it mean to how you develop software?
+
+What has happened to the engineering organization in your company? What happens to the product marketing team that specifies the product? What happens to the engineering team that codifies the product? What happens to the QA team that evaluates the product? What do these products even become someday? How do we deploy the product? How do we keep it up to date? If you're learning if it based on machine learning, how do you keep it refreshed forever? How do you patch software? And so how do you -- so on and so forth.
+
+The number of hows I asked about the future computing, it must have been 1,000 questions. And I came to the conclusion, our company came to the conclusion that this is going to change everything. And so we pivot the whole company based on that core belief. Simplistically, what Chuck is saying is that we came from a world where everything was prerecorded. The software that Chuck worked on is...
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Really good stuff. It ran a very long time just for the record.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+It was -- indeed, it was described in the Hebrew.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+That is true. That was another skill. I mean COBOL and Hebrew, I mean...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Chuck is the only person in the room that knows Hebrew and COBOL. And so anyways, that was prerecorded. We engineer -- we describe our, we describe our thoughts. And then we put data that goes along with it. It's -- everything is prerecorded. The reason why it's prerecorded. The reason why you know software in the past was prerecorded is because it came in a CD ROM. Isn't that right?
+
+It was prerecorded. Okay. What is software now? Because it's contextual, and every context is different. And every time everybody who uses the software is different and every prompt is different and all the -- and the precursor you give it, the priors you give it, the context is different. Every single instance of the software is different, which is the reason why the amount of computation necessary in the past, which is prerecorded, it's called retrieval based. All you have to do is check yourself. .
+
+When you use your phone, you touch something, it went and retrieve some software, read some file, some images and brought it to you.
+
+In the future, everything is going to be generative, just like it's happening right now. This conversation has never happened before. The concepts existed before. The priors existed before. But every single word in the sequence has never happened before. And the reason for that is, obviously, we're 4 wines in.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+COBOL and Hebrew have never come out of the -- cold brew yes, COBOL, Hebrew, no.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Thank goodness. This is not on campus.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Or being streamed. All right. Let's...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Do you understand what I'm saying? And so as a result, as a result...
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Do you understand what you're saying?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+The only thing that Chuck has fed me today so far is 4 glasses of wine.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+And to be fair, I only fed you -- I fed you 1 of them. You took the other 3 off the buffet.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+I was eyeing the food. I was like, I'm so hungry, I'm eyeing the food. It was forever about 40 feet away from me.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Because you were taking photos.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+But it was -- I was like it was so close. It was so close. And I actually leaned towards the food 1 time, but I was pushed back again.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+You know what, you know what happened, your team -- your team actually told us ahead of time. If you get 3 glasses of wine in, he is optimal. If you get fourth wine in, it's going to be incredible.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+This is suboptimal. So anyways, listen, listen, listen. So what is AI? We had to leave some wisdom behind.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Can we get another glass of wine, please?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+This is not just Dave Chappelle stuff.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Let's talk about some -- let's talk about 1 other thing.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Energy, chips.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Energy sounds good.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Energy, chips, infrastructure, both hardware and software, then the AI model, but the most important part of AI is applications. Every single country, every single company, all that layer underneath is just infrastructure stuff. What you need to do is apply the technology. For God's sakes, apply the technology. A company that uses AI will not be in peril. It's the company who -- you're not going to lose your job to AI, you're going to lose your job to someone who uses AI. So get to it. That's the most important thing. And call Chuck as soon as possible.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+You call me, I'll call him. You got it. So we don't have a lot of time. So I'm not sure...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+We have all the time in the world.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Do we?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Chuck, he runs -- he bills on the clock. I don't even wear a watch. Look at that, Chuck.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+I got you right here. We're doing great.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+You bill people on the clock. Not me. I'm not leaving until value is delivered. If it takes all night, I'm not -- look, I won't torture all of you until...
+
+Charles Robbins
+Cisco Systems, Inc.
+
+But Jensen, that's why my guys like me need a watch. All right. Can you...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Until you could say that you learned something, you are going to be trapped in here. We're going to torture everybody until value is delivered.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+I did check. There is more wine. Can you just give us your top of mind on physical AI?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Remember what software is. Software is a tool. There's this notion that the tool -- the software industry is in decline, and will be replaced by AI. You could tell because there's a whole bunch of software companies whose stock prices are under a lot of pressure because somehow AI is going to replace them. It is the most illogical thing in the world, and time will prove itself. Let's just give it -- let's give ourselves the ultimate thought experiment.
+
+Suppose we are the ultimate AI, artificial general robotics, the ultimate AI, the physical version of us. You could, of course, solve any problem because you're humanoid, you could do things. If you were a humanoid robot, would you use a screwdriver or invent a new screwdriver? I would just use one. Would you use a hammer or invent a new hammer? Would you use a chainsaw or invent a new chainsaw? It just don't -- first of all, ideally, they don't use it at all. But do you understand what I'm saying? If you were a humanoid robot, artificial general robotics, would you use tools or reinvent tools?
+
+The answer, obviously, is to use tools. And so now do the digital version of that. If you were an artificial general intelligence, would you use the tools like ServiceNow and SAP and Cadence and Synopsys? Or would you reinvent a calculator? Of course, you would just use a calculator. That's the reason why the latest breakthroughs in AI is what? Tool use, because the tools are designed to be explicit. There are many problems in our world where F equals MA. Please -- could you please not come up with another version? FA is not kind of MA, it's just MA? Do you guys -- Ohm's law, V equals IR, is not kind of IR, approximately IR, statistically IR. It is IR. Okay? Do you understand what I'm saying?
+
+So I think we want the artificial general robotics, artificial general intelligence to use tools. Well, that's the big idea. I think that in the next generation of physical AI, we're going to have AIs that understand the physical world, understand causality if I tip this over, it's going to tip all of that over. They understand the concept of a domino -- just the concept of domino, notice a child understands if you tip that over. The concept of domino is extremely -- it's like deeply profound. The causality, contact, gravity, mass, all of that is integrated into a domino. Tipping a domino's over.
+
+The idea that you could have a little tiny domino, tip a larger domino, tip a larger domino, tip a larger domino to the point where there's a ton on the other side, a child has no trouble with that concept.
+
+A large language model will have no idea. And so we have to teach. We have to create a new type of physical AI. Well, what's the opportunity? So far, the industry that Chuck and I have been part of is about creating tools. We have been in the screwdriver, hammer business. Our entire life has been about creating screwdrivers and hammers. For the first time in history, we are going to create what people call labor, but augmented labor.
+
+Give you an example. What is a self-driving car? It's a digital chauffeur. What's a digital chauffeur valued at? A lot. A lot more than the car. And the reason for that is because in the lifetime of the digital chauffeur, the economics of the digital chauffeur is a lot more than the car. For the very first time, we are exposed to a TAM that is 100x larger, literally, mathematically, true. The IT industry is about $1 trillion, right, or so, plus or minus a couple, and yet the economy of the world is about $100 trillion.
+
+For the very first time, we're going to be exposed to all of that. So it is the case that all of you, all of you, everybody in this room today, you have the opportunity to apply this technology to become a technology company.
+
+Let me give you some examples. I really believe as much as I -- look, I love Disney, and I love working with Disney. I'm pretty sure they'd rather be Netflix. I love Mercedes. I came in a Mercedes. I am certain they'd rather be Tesla. I love Walmart. I am certain they'd rather be Amazon. Do you guys agree so far? Am I 3 for 3? All of you are that way.
+
+I believe that we have an opportunity to help transform every single company into a technology company. Technology first, technology first. Technology is your superpower and the domain is your application versus the other way, which is the domain is who you are, and you're seeking for technology. .
+
+And the reason that's so -- the reason that's so is because companies who are technology first, you're dealing with electrons, not atoms. And electrons, there's a lot more of them. Atoms, you're limited by mass, which is the reason why the moment they went from CD ROMs to electrons, the value of the company exploded by 1,000 times. You need to be like us, an electronics company, electron company, which is another way of saying a technology company. And so I think that the opportunity for you is here.
+
+Another way to think about that is AI, and we just said it earlier, even Chuck who only knows how to program in Hebrew.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+It's a gift.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+His instruments choices -- and right to left because, as you know, it's otherwise.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+It is pretty smart actually.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Smart people do smart things. And so the beautiful thing is that, as you know, the programming language of the world and for all of your companies, you kind of feel like, "Oh my gosh, software is not our strength, but knowledge, intuition domain expertise is your strength." Well, you get to -- you now for the first time, can explain exactly what you want to a computer in your language. Do you remember where we started from explicit programming to implicit programming?
+
+For the first time in history, you could program a computer implicitly. Just tell it what you want. Tell it what you mean. And the computer will write the code because coding as it turns out, is just typing and typing as it turns out, is a commodity. And that's the great opportunity for you. All of you could be levitated above the atomic limitations that you were limited by before. All of you could escape from this limitation, which is we don't have enough software engineers because as it turns out, typing is a commodity. And all of you have something of great value, which is domain expertise to understand the customer, understand the problem. And that is the ultimate value. That is the ultimate value, to understand the intent.
+
+As you know, when you graduate from software -- when you graduate from college, you could be a super programmer, but you have no idea what customers want. You have no idea what problems to solve, but that's what all of you know. You know what customers want. You know what problems to solve. The coding part of it is easy. Just tell the AI to do it. And so that's your superpower. So Chuck and I are here to enable you to do that. That closing was done with 5 glasses of wine to me, and so it's a miracle indeed between somebody who works off a tablet...
+
+Charles Robbins
+Cisco Systems, Inc.
+
+This is true representation of artificial intelligence. Or maybe that's enhanced intelligence.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+I just want to tell you that it's a great pleasure working with all of you. Cisco, as you know, has extreme expertise in 2 very important pillars of the invention of computing. Without Cisco, there is no modern computing. One of them is, of course, networking and the other one is security. And those -- both of those pillars have been reinvented in the world of AI. And the part that we know very well, which is the computing part of it, in a lot of ways, is a commodity. And the stuff that Cisco knows is deeply valuable. And between the 2 of us, we're going to -- we'll be delighted to help all of you engage the world of AI.
+
+And then somebody asked me earlier, and I just said, I think it's worth repeating. Somebody asked me earlier, should you do -- just rent the cloud? Or should you even make the effort to build your own computer?
+
+Here's what I would tell you. I would advise you to do exactly the same thing I'd advise my children, build a computer. Even though the PC is everywhere, even though it's mature, even though the technology is developed, for God's sakes, build one. Know why all the components exist. If you were to be in the world of the automotive -- the automobile industry to transportation industry, don't just use Uber. For God's sakes, lift a hood change the oil, understand all the components. For God's sakes, understand how it works. It is vital.
+
+This technology is so important to the future. You must have some tactile -- tactical understanding of it. Lift the hood, change the oil, build something. It doesn't have to be large, build something. You might discover you're actually insanely good at it. You might discover that you need that skill. You might discover that the world is not about all rent versus all own, that you want to rent some and own some because some part of your company should be built on-prem.
+
+For example, sovereignty and proprietary information. And you're just -- you're not comfortable. You're not comfortable sharing your questions to everybody. You know the reason why I've never -- this is a conceptual example. You know that when you go see a therapist, you don't want the questions to be online. You know what I'm saying, okay? I'm just -- I'm imagining this one. Okay. So hypothetically I think that a lot of questions that you have, a lot of conversations, you have, a lot of dialogue, a lot of uncertainties you have ought to be kept private.
+
+Companies are the same way. I am not confident. I am not secure about putting all of NVIDIA's conversations in the cloud, which is the reason why we build it locally. We've built a super AI system locally because I'm just not confident to share that conversation because my -- as it turns out, the most valuable IP to me is not my answers. They're my questions. Are you following me? My questions are the most valuable IP to me. What I'm thinking about are my questions. The answers are a commodity. If I simply knew what to ask, I'm identifying what's important. And I don't want people to know what I think is important. And I want that to be in a small room. I want that to be on-prem. I want that to be my myself. But I want to create my own AI and then one last thought.
+
+Since it's already 11:00. One last thought. There was an idea that AI should always have a human in the loop. It's exactly the wrong ideas, it's backwards. Every company should have AI in the loop. And the reason for that is because we want our company to be better and more valuable and more knowledgeable every single day. We never want to go backwards. We never want to go flat. We never want to start from beginning, which means that if we have AI in the loop, it will capture our life experience. Every single employee in the future will have AI, lots of AIs in the loop. And those AIs will become the company's intellectual property. That's the future company. And therefore, I think it's sensible for all of you to call Chuck immediately.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+And I'll call Jensen.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Anyhow, that's my close.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Listen, let's -- 2 weeks on the road, Jensen flew here, spent his last night -- last evening with us before he gets a sleep in his bed for the first time in a long time. We're forever grateful. Appreciate you being here. Thank you so much.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Thank you very much.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Thank you, man.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+And from the corner of my eye, there were all these skewers. I hope it's still there.
+
+Charles Robbins
+Cisco Systems, Inc.
+
+Where is the bag of Fritos...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+All right. Let's go. Thank you. Thank you, everybody.

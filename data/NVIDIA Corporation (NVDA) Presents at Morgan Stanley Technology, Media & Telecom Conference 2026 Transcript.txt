@@ -1,0 +1,236 @@
+NVIDIA Corporation (NVDA) Morgan Stanley Technology, Media & Telecom Conference 2026 March 4, 2026 1:00 PM EST
+
+Company Participants
+
+Jen-Hsun Huang - Co-Founder, CEO, President & Director
+
+Presentation
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Wow, no music, no walk on music, no roaring applause. I'm just saying, I'm not used to coming to work in this way, this total silence. I'm just kidding.
+
+Unknown Analyst
+
+There were a lot of Taylor Swift comments along the way. So crowd is ready.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+This company needs humor to it. Is humor allowed here?
+
+Unknown Analyst
+
+Humor is very allowed. I made investment banking jokes yesterday, Jensen. But, thank you for being here for the last, I think, 25, 27 years, you've been such a great supporter of this conference. I think we sometimes become numb to the scale of the numbers and the transformation we're experiencing. I don't think I'm the only one in this audience. I'm getting billions and trillions confused constantly.
+
+My partner, Mark Edelstone and I, 27 years ago, we sat on a stage much smaller than this one on the Morgan Stanley trading floor, and we announced and introduced NVIDIA and you to the Morgan Stanley sales force. And believe it or not, $48 million IPO, 1998 revenue -- trailing revenue, $30 million. Jensen and his team, Colette, were so generous. Two years ago, you hosted our Board meeting in your headquarters. I think you had just announced a $30 billion quarter in terms of revenue. And then last week, a $46 billion net income quarter.
+
+So we've moved from years to quarters from millions to billions. It's really amazing and unprecedented scale and growth. And then you've changed our lives. You've changed our lives.
+
+Question-and-Answer Session
+
+Unknown Analyst
+
+And so I guess my question after that is what had to come together strategically, culturally, technically to deliver that type of hyper growth at scale, and the scale is really astounding? And again, thank you.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+That's going to take 37 minutes and 13 seconds and slightly more. Obviously, NVIDIA wasn't built overnight. It's taken us 33 years. I sort of remember somehow that when we went public, our price was $13, and I just read your's $12. I overstated it. I remembered it to be much more optimistically than it was actually. The company's valuation at the time, I think, was like $300 million. And Mark did such a good job, Mark Edelstone did such a good job preparing all of our investors that they really only had 1 question. It was literally a one-question IPO roadshow.
+
+And the question was, when are you going out of business? I'm not kidding. And that question is about as hard to answer as the one you just gave me.
+
+Well, the answer is, as it turns out, we started the company with the idea of creating a new computing platform, a new way of doing computing. And not that the old way was wrong, it's just that the new way, a new way is essential to solve some unique problems. And the type of things that we were extremely good at are algorithms, algorithms, because the inner loop of the software tends to be about 5% of the code, but 99% of the compute time. And back then, the algorithms in the world of computers was quite rare. And one of the most important algorithms was computer graphics, the simulation of light and how light travels through space.
+
+And so while computer graphics was used for things like animation movies, of course, at the time that we were founded, the cover of, I forget which magazine was, Jurassic Park was there. And so it was really -- it was during that time where computer graphics was becoming more capable, and we could simulate virtual reality with it, and we applied it to creating a new industry, which did not exist at the time called video games. And so 3D graphics was modernized in my time, consumerized in my time. And the whole video game industry was created in my time.
+
+And when I say in my time, meaning it was NVIDIA that pulled it all together. The reason why we're so beloved in the video game industry and we're so deep in it still is, in a lot of ways, we created the modern video game industry. From the algorithms associated with it, the libraries. In the computer graphics industry without RTX, there would be nothing today. Without our contribution of all the algorithms that goes into all of the game engines, you wouldn't be able to enjoy the type of video games you enjoy today. So NVIDIA has been deep in the world of algorithms since day 1, 33 years ago.
+
+Now accelerated computing requires what is described as a full stack, meaning the architecture, the chip design, the libraries that sit on top of it, how it's integrated forwardly, I'm using that. Apparently, there's a new idea called forward deployed engineers or something like that. NVIDIA's had DevTech engineers 33 years ago. We deployed them into the world's video game industries and video game companies and game engines, and we integrate our technology into their game engine. Today, if you look at Epic's Unreal Engine, NVIDIA's technology is all over it. And you go into every game developer, NVIDIA's technology is all over. That's the reason why all the games run best on NVIDIA for good reason. That's the reason why NVIDIA is the world's largest game platform.
+
+You probably don't know this, but there are several hundred million active GeForce gamers in the world. Many of them turned into AI researchers, is because of GeForce GTX 580 that Ilya Sutskever and Alex Krizhevsky and Jeff Hinton, it was Jeff that told them to go buy it to discover CUDA. And so the first idea about NVIDIA is that we're a full stack company.
+
+The second idea about our company, and this is really old history that many people might not have been born yet. But during that time, the PC architecture was incompatible with today's computer graphics capabilities. And we created some new technology called Direct NVIDIA. It was a way for applications to directly communicate with our APIs. And we exposed it to some very important companies, it became DirectX. If you look at the way that we communicate between us and the application, that was completely revolutionary to bypass a whole bunch of software that makes it slow, right, to make accelerated computing possible.
+
+We introduced the idea of virtualized frame buffer memory into system memory. It was initially called AGP, which then became PCI Express. Many of the system architecture had to be reinvented so that we could accommodate video games and 3D graphics in a PC. Well, that same sensibility of both innovating the full stack to be integrated in algorithms as well as changing the architecture of systems so that we could create new computer systems led to that same sensibility expertise led to DGX-1, which was the world's first AI supercomputer that delivered by hand to San Francisco here very close by to a company that eventually became OpenAI.
+
+And so the fundamental attitude, if you will, expertise, how we see the world propagated in this way. It's literally 33 years. The company's entire culture is designed to be full stack. The organization is designed to be full stack. The entire system is designed to create new stacks and new system architectures that allow us to do this. Well, we started with, of course, the -- if you look at NVIDIA's graphics cards, GeForce, it's a technology marvel. How it's integrated into the operating system, how it's integrated into the system architecture, completely reinvented how computers worked before.
+
+Well, we have no trouble with that with DGX-1. I have no trouble with that with the first supercomputing cluster, which then went to Satya for their first supercomputer. And you might -- people have noticed that Microsoft's first supercomputer and NVIDIA's supercomputer had exactly the same benchmark, like down to the -- you measure the performance of the system across all of these GPUs, that was about 10,000 GPUs or so. It was exactly the same performance. And the reason for that is because we designed it, and we delivered to Azure Cloud.
+
+It was all based on InfiniBand. It was all based on Ampere, this is the A100, which became the first computer that OpenAI used. And so we're quite comfortable with this full stack, full system approach. And without being able to do that, it is impossible to stay at the bleeding edge. It is literally impossible to keep up with a company that's building not just one chip each year, but we're building an entire infrastructure each year because-- we own the CPU. We revolutionized the new way of designing CPUs, and you'll see more examples of that. We revolutionized the way we do CPUs, revolutionized the way we obviously do GPUs, connect them together using this thing called NVLink, which revolutionized the way you build computers all together, connected together with a new type of AI Ethernet called Spectrum-X, we connected everything together. Now we own the entire stack. We know all the chips inside.
+
+When you own the entire stack and you own all the chips inside, you could change it every single year. If you don't own the entire stack and you don't own all the chips, it's hard to innovate every year. And the reason for that is because you're connecting too many cats and dogs, and there's too much innovation to pull together once a year if you can't control it because it's a full stack problem. So that's how we got here.
+
+Unknown Analyst
+
+It's amazing. In the last 2 years, since you were here last and our Board meeting, we've sort of gone from generative AI models to reasoning and now agentic and Satya just finished a panel on the enterprise. And at the enterprise level, we're working with Microsoft, the OpenAI, XAI, Gemini, we have Dario here from Anthropic, the capabilities are extraordinary. What does it mean around the size of that enterprise market? How is it changing? And how is it going to be adopted? And how do you sort of see that playing out over the years because it's a big, big topic of the...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Yes, really good. literally, in the last 2 years, we went through 3 inflection points in AI. The first inflection point, first of all, the technology sat there in plain sight for months. GPT-3 sat there in plain sight for months until somebody wrote essentially a wrapper around it and turned it into ChatGPT, turned it into an API, made it available and easy to use by everybody. But the first inflection point was generative, as you mentioned. The ability to translate -- convert information from one form to another form and auto regressively generate tokens.
+
+And the second -- but of course, the problem with generative AI is that -- that it's prone to hallucinate. And the reason for that is because -- not because there's something fundamentally wrong with the technology, not because it didn't -- it didn't learn all the right things, but because it's not grounded on contextual information. It's not grounded on relevant information. And so the second thing that happened was 01 and reasoning came about. But behind 01 is also grounding on research, grounding on truth, and the ability to have -- to combine generative with semantic, we call it retrieval augmented generation, but basically conditional generation, okay? Conditional generation, meaning that what you're about to generate depends on context and ground truth or whatever research or whatever it is.
+
+And so the second generation introduced reasoning, self-reflection, the ability to self-correct because sometimes what comes out in your mouth, you kind of wish it you pull back and you go -- and so in the case of AI, it has the ability to do that in real time. And so 01 became much more grounded and the information that was generated was more reliable.
+
+So what happened? What came out as a curiosity and the incredible excitement in the tech industry, jumping on to it because we realize what's about -- what can happen. The next phase of it, the usefulness of ChatGPT just skyrocketed. But the amount of tokens that it generated was much, much more than the first generation, maybe 100x more tokens. The model is maybe 10x larger. So it's probably something like 1,000x more compute. So from 01 over ChatGPT, call it 1,000x. And then because it was so useful, maybe 1 million times more usage, okay? So the combination of usage and its usefulness and groundedness allows us to -- we saw that next phase of growth.
+
+But in the end, what 01 did was it provided information, essentially a chatbot that was much more factual. It was informational. And of course, for many of us, we use it for research, and we use it all the time. Instead of searching, our goal isn't to search, our goal is to get answers. And so ChatGPT gave us that. That was kind of the second inflection.
+
+The inflection that we're seeing here also sat in plain sight for quite a long time. And it's basically the ability for AI to use files, access files and use tools. And so now it could reason, it could think, it could use tools, it could solve problems. And it could do search, it could do planning. And so probably the biggest phenomenon that's happening, and if you're paying attention to it, I'm sure you are, OpenClaw is probably the single most important release of software probably ever. And if you look at OpenClaw and the adoption of it, Linux took, right, some 30 years to reach this level. OpenClaw in, what is it, 3 weeks has now surpassed Linux. It is now the single most downloaded open source software in history, and it took 3 weeks.
+
+If you look at the line, even in semilog, this thing is straight up. It's vertical. It looks like the Y-axis. I've never seen anything like it, okay? It really looks like a Y-axis. And so what's happening now? You could give a problem statement, create, start with the prompt goes, create. The last prompt -- the way you kind of think about it, the last prompt was what is, when is, who is, right? That's the last prompt. This now prompt goes create, do, build, write, does that make sense. So what's happened. The last prompt was queries. This prompt are actions. They're tasks, do something for me. And you describe it as expressively as you like with a lot of intention and let it infer or very specific, and it goes off and it just churns, it just thinks. It goes off and it does research and it reads, it reads a manual. If it has to use a tool it has never used it before, it reads the manual of the tool. It goes off and studies what's on the web and it applies the tools and performs the task.
+
+Now I just said we went from one generative prompt -- one generative response to now one that is 1,000x more tokens and agents, we call them at the company claws. These claws are now consuming what, 1 million times more tokens. They're running continuously in the background. We have a whole bunch of claws in the company. And they're all continuously running, doing things for us, writing -- developing tools, developing software. And so now the question is the implication. The amount of compute in our company that we need has just skyrocketed. The amount of compute every company needs is skyrocketing.
+
+Unknown Analyst
+
+So in that context, I think over the last few days, it's come out certainly at Morgan Stanley as a user, maximum bullish on tokens, maximum bullish on doing and creating. It does require the compute you just mentioned. And the question is around the financing and the CapEx around that to support that extraordinary large compute. How does it all get financed as you see it from a sort of top of the ecosystem? And how do the factory -- AI factory economics play out and evolve going forward?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+And so there's a couple of thoughts that's really important. Remember, I appreciate you using the word factory. Several years ago, I described that these new -- these data centers, what people call data centers, is not for storing data as in a data center. They are producing tokens. And so a facility, a plant with the fundamental purpose of producing tokens is a factory. It's an AI factory. And at that time people said, Jensen that sounds so grungy. It's clean. And -- but it produces tokens. And nobody likes to build data centers because who knows what kind of return you're going to get on a data center, but everybody loves building factories. And the reason for that is because factories make money.
+
+And we now know for certain that these factories directly generate tokens, and these tokens are monetizable. And the more compute you have, the more tokens you can produce, the more tokens you produce, the greater your top line. We now know for certain -- we now know for certain that company's revenues are directly correlated to compute. And we know that for a fact because if Anthropic had 3x more compute, their revenues will be 3x higher. We know that. We know that Anthropic is compute limited, factory limited. It's no different than Mercedes being factory limited or any company being factory limited. And so if they had more compute in their factories, they will have higher revenues.
+
+If OpenAI had -- right now had more compute, they will have higher revenues. And so the first thought is that compute equals revenues. Now the big idea, of course, compute equals GDP, that we also know. Compute equals a country's GDP. And so that's one thought.
+
+The second thought, the reason why NVIDIA is so successful is because we engineer these systems full stack end to end, and they're architected from the ground up to generate tokens at incredible effectiveness. NVIDIA's tokens per watt is an order of magnitude, an order of magnitude ahead of the competition, alternative.
+
+Tokens per watt. Now what does that mean? Remember, your factory has 1 gigawatt. And if your tokens per watt is 10x the alternative, your revenues are 10x the alternative. For the very first time in history, the computer architecture chosen in a factory -- in a company's factory must go through CEO review, no question about it. That company only has a gigawatt or 2.3 gigawatts for next year. If they put the wrong system inside, it will affect their revenues the next year. I promise you that, and we see it. And so our architecture being so advanced now and pulling further and further ahead, those are probably one of the most exhaustive benchmarking done by a firm called SemiAnalysis, and they declared NVIDIA inference King. Inference King inference is tokens per second, tokens per watt. It's about generating tokens and tokens per dollar. When our performance per watt or per anything is so much ahead of the competition or the alternative, our tokens per dollar is also the best, which means we're the cheapest tokens you can produce today, not even close, an order of magnitude better.
+
+And so that's the second thought. The second big idea for AI is AI is a factory because factories are power limited always. It doesn't matter how many plants you have. Each plant is still 100 megawatts or gigawatt. And therefore, tokens per watt is the single most important thing for the top line of companies. and they have to make those decisions very, very carefully. It's no longer just about PowerPoint slides. You're not going to go put $50 billion down on somebody's PowerPoint slides.
+
+Unknown Analyst
+
+So the token demand is extraordinary, as you just mentioned. We're seeing it in your numbers, right? I think I mentioned $46 billion in net income, but $70 billion in revenue...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+You're going to ask me something about how to fund it. Can I just tell you how to fund it? First of all, I just told you the reason why you have to build these factories in the future is because you either -- you just believe that, one, software is important. And so I hope this audience believes software is important. Software runs the world. The first thought.
+
+The second idea is this. There will be no software in the future that's not agentic. Do you guys agree with that? How could you have software that's dumb? And so it is absolutely true that every software company will become an agentic company. They're going to simultaneously use open models, okay? Open models mean the ones that they download themselves and they fine-tune themselves, they're also going to use closed models. The combination of all that, just like we -- in all of our companies, we have employees that we hire. We have employees that we're grooming. We have contractors that we bring in. We have specialists like yourself that we bring into the company to do our work. Our job is not to do the job. Our job is to have to job be done. That's what every company does.
+
+And so therefore, every company will realize that these AI models, some of it you rent, some of it you build. That's not illogical, just like biological workers, you will do that with digital workers. And so every single software company in the future will no longer just rent tools, but they'll rent also experts to use the tools. They'll not just rent tools, but rent experts that use those tools because their agents are going to be extremely good at using their specialized tools.
+
+And so every single software company -- what is the IT industry can pull trillion dollars. Today, they're tool renters. In the future, they will, of course, have -- they'll rent agents that use those tools, which means that the software industry in the future will be much larger than the software industry of today. You pick your favorite software companies, and I can imagine a much, much larger future for them. Cadence is going to be much larger. Synopsys is going to be much larger. Siemens is going to be much larger in the future. But their business profile will change because today, they're basically a software licensing company. In the future, they will also rent tokens, specialized tokens, which also means that, that $2 trillion industry today with no token consumption in the future will be extraordinary token consumers. That's where that money is going to come from.
+
+They're -- all of those software -- the IT industry of today, not the enterprise companies, the IT industry alone is going to shift an enormous -- it's going to consume enormous amounts of tokens in the clouds and they're either open models or [indiscernible].
+
+Unknown Analyst
+
+So that extraordinary token economy is facing some constraints. So we've got memory constraints. We've got power permitting constraints. I was in Texas with builders. We have electrician constraints. How do you see that playing out? Satya raised it in the last session, you're closer to it. And also, if it takes a little longer, is it still okay? Or is it really negative if we just -- if the cycle on building this extraordinary...
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+I love constraints. I love constraints. And the reason for that is because in a world of constraint, you have no choice but to choose the best. You can't squander your choice. If the data centers -- if the land power and shell is constrained, you're not going to randomly put something in there just to try it out. You're going to put something that you know for certain is going to deliver the tokens per watt, that you know for certain is going to allow you -- from the moment you secure the capacity, we're going to be able to stand up an entire factory for you. We're the only company in the world that can come into your company and help you stand up an entire AI factory.
+
+So anybody here that needs an AI factory and you need -- I'm happy to help. You call one person and that one person comes in and the next thing you know, you're in the AI factory business, okay? And so we have the expertise. We know the architecture works. We know there's enormous demand for the architecture after you're done standing it up, so we can help you get into business. And so when you're constrained that way, you have no choice but to make the best choice because your revenues next year is directly correlated to it.
+
+And this is one of those questions now for all the CEOs that are in the cloud -- they're cloud service providers or software providers, if they make poor choices, this is no different than me choosing the wrong foundry. This is no different than me choosing the wrong memory, the wrong anything because I have so little -- everything is so constrained. If I choose poorly, my revenues are affected, everything is affected. And so they can't choose poorly.
+
+The second thing is NVIDIA is, as you mentioned, working at such a large scale. Our supply chain, one of the things that we do with our money, of course, is to secure our supply chain. One of the things that we do with our capital is to secure supply chain so that when Satya asked me to help them stand up a few gigawatts, the answer is no problem. And the reason for that is I got all the memories, I've got all the wafers, I got all the CoWoS. I've got all the packaging, I've got all the systems, I've got all the connectors, I got all the cables. Everything from copper to multilayer ceramic capacitors, everything is secured. That's one of the reasons why NVIDIA's balance sheet being strong is so strategic.
+
+A strong balance sheet today is not only helpful, it's strategic. And so you look at the amount of revenues we're shipping into, just look backwards and look at the amount of supply chain capacity we had to go secure for that they have to believe. If you set up a factory, a plant -- a DRAM plant, and I come in and say, you know what, go ahead and set up the DRAM plant because I'm going to use it. That goes a long ways. You might as well take that to the bank, as many of them have. And so -- and so I think the fact that everything is scarce is fantastic for us.
+
+Unknown Analyst
+
+I think it does create duration, which I think is extraordinarily powerful for you. I think just another layer, which is the ecosystem, you're one of the great -- you are the greatest cash flow generating company in history. And then you've taken that capital and really created it, feels like stability, diversity in the ecosystem. And so how do you think about that in both a financial and a strategic context as you build, I think, both duration and durability in the entire ecosystem?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Yes. When Mark took me public, I think it was probably a little bit less energetic than I was delivering it just now. But I am fairly certain I said all the same things. NVIDIA has been building -- remember, accelerated computing requires that I build an ecosystem. You can't just take code and decompile it and it works. There's no such thing as a universal accelerated computing system. Accelerated computing is by definition proprietary. There is nothing about our architecture that is compatible with somebody else's. It's just not. The instruction set is different, the architecture is different, the micro-architecture is different, everything is different. And so we hide it underneath these things in such a way that makes you feel like and because of NVIDIA, we accelerate everything from data processing, molecular dynamics, fluid dynamics, particle systems, biology, chemicals, all the way to deep learning, right? Robotics, long sequence, spatial, 3D, you name it, right?
+
+Unknown Analyst
+
+Sounds like a 5-layer cake?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+It's a 5-layer cake, right, exactly. But because we've been working on it so long, it looks like everything is accelerated. But it's not true. It's because I did it one at a time, one domain at a time that all of the important domains in the world are now fully accelerated. And so the thing that we do on the supply chain side, our balance sheet is incredibly valuable because it provides security for our customers. On the upstream side, I'm cultivating new ecosystems for the future. All these AI natives that I'm investing in, the companies that we're partnering with, these are expanding, extending the CUDA ecosystem. 100% of everything that we do is on top of CUDA. Every investment that we've made is on top of CUDA.
+
+So recently, there was a question about, are we going to invest $100 billion in OpenAI. We just -- just for everybody's update, we finalized our agreement. We're going to invest $30 billion in OpenAI. I think the opportunity to invest $100 billion in OpenAI is probably not in the cards. And the reason for that is because they're going to go public. And so I'm fairly sure that if we provide the capacity they need, which the compute capacity they need, which we're ramping up hard to go to, the revenues will more than follow. And they're going to go public towards the end of the year. And so this might be the last time we'll have the opportunity to invest in a consequential company like this. And our $10 billion investment in Anthropic probably will be the last as well.
+
+And speaking of that, one of the things that I wanted to make sure I told you guys this time and something new that you probably haven't internalized. You see all the news, you probably haven't internalized, some of the really great work that we did last year, the last 1.5 years or so, last year or so, we expanded OpenAI's capacity from Azure to OCI to now AWS. We expanded OpenAI's reach of capacity to AWS. We're ramping AWS like mad. We're ramping them as hard as we can so that OpenAI has accessed even more capacity. That's one.
+
+The second thing that we did, and this was a really, really great outcome is we're now also working with Anthropic. And in the case of Anthropic, we're expanding their capacity as aggressively as we can at AWS as well as Azure. And so notice what we're doing in both -- they used to be one and one, now they're kind of cross product. But the amount of capacity that we're going to bring online for them, supporting their revenues, their quality of revenues are so good, we just need a lot more capacity for them. So I think that this is something that -- that is somewhat new.
+
+And of course, the third thing that happened is a brand-new AI lab flashed into the world. Isn't that right? I don't -- nobody has mentioned them. A brand-new lab came into the world and they're going to need a few million GPUs, and that's MSL. And so that MSL is a net new on top of Meta. So we've worked with Meta a long time. MSL is a net new on top of META. And so these 3 things happened, 3 new growth vectors. OpenAI at AWS; Anthropic, totally at both AWS and Azure; and MSL. And so the -- our demand profile went from being incredibly high to higher than that.
+
+Unknown Analyst
+
+Speaking of -- so speaking of more than that. There's Waymos everywhere. I want to walk my new dog with my new robot. Physical AI could be the next place. How does that take TAM and tokens to a whole another level for NVIDIA?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+That's really great. AI is all the stuff that we're doing inside the building. But obviously, ultimately, the largest industries are outside the building. And that AI needs to be -- needs to have physical awareness, physical understanding. Causality, you push a bottle, it falls over and understands gravity, understands collision, understands inertia, understand those things, okay? And understand, for example, object permanence. I take this and I put it behind my chair. In your mind, you can't see it, but you realize it hasn't disappeared, okay? So object permanence. Things like that, that affects physical behavior and physical intelligence fairly importantly.
+
+And so -- so you probably also don't know this, that NVIDIA is the frontier of physical AI. Cosmos is the most downloaded physical AI model in the world. NVIDIA is also the frontier of autonomous AI, 2 versions, autonomous vehicle called Alpamayo, look it up, #1 downloaded. And then the next one GR00T, humanoid robotics physical AI. We are at the frontier on all 3 of those. We're also at the frontier of digital biology AI, look up La-Proteina, incredibly successful. La-Proteina for digital biology, there's a whole bunch of other models. GR00T N2 is now #1 most downloaded humanoid robotics model in the world.
+
+And so we are at the frontier on physical AI, physics, laws of physics, multiphysics, Earth-2. We're at the frontier of physical AI. That is physical AI and AI physics. And so this whole area of physical AI, NVIDIA defines the frontier. It is completely open. We open it because we want to enable every company, new or old industry to be able to take advantage of this capability. And we've got the whole stack and the necessary computers for you to advance the AI for your own use as well as deploy it inside a robot, inside a plant, at the edge, at a radio tower, deploy it everywhere. This is the next frontier.
+
+In 2 years' time, we're going to be largely done talking about agentic AI because we're all going to be using it. In 2 years' time, and if you invite me back again...
+
+Unknown Analyst
+
+Every year, every year.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+We're going to be talking about all these new companies. Of course, we announced a very important one, a co-innovation lab with Lilly. There will be others. But this -- in order to set up Lilly's AI factory, unless you have the capabilities of NVIDIA and this full software stack and the capabilities of all the model and the expertise in that digital biology domain, how would you even do it? And so we're quite -- the things that we are building in the next couple of years, you'll see really come to fore. And we're going to be talking about physical AI for -- starting in the next couple of 2, 3 years and for a decade.
+
+Unknown Analyst
+
+So the speed of innovation and the pace that you're operating in is truly extraordinary. So at the beginning of the week, my partner, Joe Moore made NVIDIA his #1 pick.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Is that right?
+
+Unknown Analyst
+
+It's his #1 pick.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Thank you.
+
+Unknown Analyst
+
+Thank you. Good timing, Joe.
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+33 years later.
+
+Unknown Analyst
+
+How do you think about the stock? Do you think about the stock? Do you have perspectives on it? You're so extraordinarily important and busy around driving all this innovation for -- in essence, everything that's going on with 3,500 attendees, and we had $40 trillion of market cap here. How do you think about that?
+
+Jen-Hsun Huang
+Co-Founder, CEO, President & Director
+
+Well, of course, I care about the stock. I care about shareholders. I care about our employees, I care about all of you. And you might be referring to -- we just had the best earnings of earnings in the history of earnings. Is that what you're saying? I think the -- I think somebody actually told me that this might be the single best print in the history of humanity. And I said it must be only recorded humanity. I'm sure somebody had better returns. But anyways, we had a very good quarter.
+
+Listen, you can't hold the stock back. You can't hold it back. And the reason for that is very simple. Compute equals revenues for companies. In the future, every single company will need compute for revenues. I'll just make that prediction for now. Every single company will need compute for revenues. And the reason for that is because compute translates to intelligence, which translates to your digital workforce, which translates to your revenues. I am certain compute equals revenues. I'm certain also that compute equals GDP. Therefore, every country will have it because not one country in the future will say, guess what, we're going to opt out on intelligence. We've got -- I don't know what we got, but we don't need intelligence. That's the one thing we don't need, okay? And so if you need intelligence, you're going to need digital -- you're going to need AI, you're going to need compute. And so compute equals GDP. I know that for certain.
+
+I also know that we're at the beginning of this journey. And I see crystal clearly exactly how it's going to get funded. We know for a fact that all the CSPs took all of their CapEx and they converted to generative agentic systems, AI systems because it helps search, because it helps shopping, because it helps ads, because it helps social, because it helps literally every single Internet service in the world has been reinvented into generative AI. So they could take a 100% -- the entire Internet industry could take 100% of their CapEx and make it AI because it's better. We've proven it to be better. Meta has proven to be better. Google has proven to be better. AWS has proven to be better. And so you can now take your CapEx and convert to this.
+
+Number two, I just said the entire software industry will be token driven. The entire software industry, you pick your favorite software company, and I can show you exactly how they're going to be token driven. And that token -- that token -- you take your favorite software company, their token will be either produced by themselves, which needs compute or they could be resold from Anthropic or OpenAI and that needs compute. And so what that says for the first time is the entire IT industry will have to be fueled by compute. That's exactly where all this is going to come from, trillions of dollars of it, and we're at the beginning of that. So that's my prediction.
+
+Unknown Analyst
+
+Thank you, Jensen, for making history at this conference, 27 years. Thank you.
